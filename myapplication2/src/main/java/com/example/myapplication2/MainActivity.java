@@ -18,6 +18,10 @@ import android.widget.FrameLayout;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    /**
+     * ahfioajfafdjnkasfkln
+     */
     Handler handler = new Handler(Looper.myLooper());
     ServiceConnection serviceConnection = new ServiceConnection() {
         @Override
