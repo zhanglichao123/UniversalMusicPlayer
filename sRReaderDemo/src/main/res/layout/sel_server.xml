@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    
+	<!--建立一個RadioGroup -->
+	<RadioGroup android:id="@+id/rgSNDev"
+		android:layout_marginTop="10dp"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<!--第一個RadioButton -->
+		<RadioButton android:id="@+id/rbDHCP"
+			android:layout_marginLeft="20dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:text=" DHCP" />
+		<!--第二個RadioButton -->
+		<RadioButton android:id="@+id/rbDev1"
+			android:textSize="20dp"
+			android:layout_marginLeft="20dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="test2" />
+		<!--第三個RadioButton -->
+		<RadioButton android:id="@+id/rbDev2"
+			android:textSize="20dp"
+			android:layout_marginLeft="20dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="test2" />
+		<!--第四個RadioButton -->
+		<RadioButton android:id="@+id/rbDev3"
+			android:textSize="20dp"
+			android:layout_marginLeft="20dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="test2" />
+		<!--第五個RadioButton -->
+		<RadioButton android:id="@+id/rbDev4"
+			android:textSize="20dp"
+			android:layout_marginLeft="20dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="test2" />
+	</RadioGroup>	
+
+	
+</LinearLayout>

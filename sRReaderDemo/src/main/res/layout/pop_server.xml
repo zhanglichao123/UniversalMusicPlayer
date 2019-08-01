@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F2F2F2"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="服务器1：" />
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="2.5"
+                    android:text="地址：" />
+
+                <EditText
+                    android:id="@+id/server_address1"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1.5"
+                    android:imeOptions=""
+                    android:digits="1234567890qwertyuiopasdfghjklzxcvbnm-.@#$%_+"
+                    android:maxLength="35" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="2.5"
+                    android:text="端口：" />
+
+                <EditText
+                    android:id="@+id/server_port1"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1.5"
+                    android:maxLength="7"
+                    android:numeric="integer" />
+            </TableRow>
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="服务器2：" />
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="2.5"
+                    android:text="地址：" />
+
+                <EditText
+                    android:id="@+id/server_address2"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1.5"
+                    android:digits="1234567890qwertyuiopasdfghjklzxcvbnm-.@#$%_+"
+                    android:maxLength="35" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="2.5"
+                    android:text="端口：" />
+
+                <EditText
+                    android:id="@+id/server_port2"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1.5"
+                    android:maxLength="7"
+                    android:numeric="integer" />
+            </TableRow>
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="服务器3：" />
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="2.5"
+                    android:text="地址：" />
+
+                <EditText
+                    android:id="@+id/server_address3"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1.5"
+                    android:digits="1234567890qwertyuiopasdfghjklzxcvbnm-.@#$%_+"
+                    android:maxLength="35" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="2.5"
+                    android:text="端口：" />
+
+                <EditText
+                    android:id="@+id/server_port3"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1.5"
+                    android:maxLength="7"
+                    android:numeric="integer" />
+            </TableRow>
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="服务器4：" />
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="2.5"
+                    android:text="地址：" />
+
+                <EditText
+                    android:id="@+id/server_address4"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1.5"
+                    android:digits="1234567890qwertyuiopasdfghjklzxcvbnm-.@#$%_+"
+                    android:maxLength="35" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="2.5"
+                    android:text="端口：" />
+
+                <EditText
+                    android:id="@+id/server_port4"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1.5"
+                    android:maxLength="7"
+                    android:numeric="integer" />
+            </TableRow>
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/buttonOk"
+                style="@style/btn_style"
+                android:layout_marginRight="30dp"
+                android:text="确定" />
+
+            <Button
+                android:id="@+id/buttonCancel"
+                style="@style/btn_style"
+                android:text="取消" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

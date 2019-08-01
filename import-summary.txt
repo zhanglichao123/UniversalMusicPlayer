@@ -1,0 +1,276 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/libraries/
+* .idea/libraries/android_support_v7_recyclerview.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/workspace.xml
+* SRReaderDemo.iml
+* changelog
+* classes/
+* classes/.DS_Store
+* classes/production/
+* classes/production/.DS_Store
+* classes/production/recyclerview/
+* classes/production/recyclerview/android/
+* classes/production/recyclerview/android/support/
+* classes/production/recyclerview/android/support/v7/
+* classes/production/recyclerview/android/support/v7/recyclerview/
+* classes/production/recyclerview/android/support/v7/recyclerview/BuildConfig.class
+* classes/production/recyclerview/android/support/v7/recyclerview/R$attr.class
+* classes/production/recyclerview/android/support/v7/recyclerview/R$dimen.class
+* classes/production/recyclerview/android/support/v7/recyclerview/R$id.class
+* classes/production/recyclerview/android/support/v7/recyclerview/R$styleable.class
+* classes/production/recyclerview/android/support/v7/recyclerview/R.class
+* classes/production/recyclerview/recyclerview.apk
+* classes/production/recyclerview/recyclerview.unaligned.apk
+* out/
+* out/artifacts/
+* out/artifacts/Android_jar/
+* out/artifacts/Android_jar/Android.jar
+* out/production/
+* out/production/Android/
+* out/production/Android/com/
+* out/production/Android/com/sunrise/
+* out/production/Android/com/sunrise/icardreader/
+* out/production/Android/com/sunrise/icardreader/BuildConfig.class
+* out/production/Android/com/sunrise/icardreader/R$attr.class
+* out/production/Android/com/sunrise/icardreader/R$drawable.class
+* out/production/Android/com/sunrise/icardreader/R$layout.class
+* out/production/Android/com/sunrise/icardreader/R$string.class
+* out/production/Android/com/sunrise/icardreader/R.class
+* out/production/Android/com/sunrise/icardreader/helper/
+* out/production/Android/com/sunrise/icardreader/helper/ConsantHelper.class
+* out/production/Android/com/sunrise/icardreader/model/
+* out/production/Android/com/sunrise/icardreader/model/IDReadCardInfo.class
+* out/production/Android/com/sunrise/icardreader/model/IdentityCardZ.class
+* out/production/Android/com/sunrise/icardreader/tools/
+* out/production/Android/com/sunrise/icardreader/tools/IDInforUtils.class
+* out/production/Android/com/sunrise/icardreader/tools/ISimCardReader.class
+* out/production/Android/com/sunrise/icardreader/tools/ScaleMaker.class
+* out/production/Android/com/sunrise/icardreader/tools/SimCardReader.class
+* out/production/Android/com/sunrise/reader/
+* out/production/Android/com/sunrise/reader/BuildConfig.class
+* out/production/Android/com/sunrise/reader/R$attr.class
+* out/production/Android/com/sunrise/reader/R$drawable.class
+* out/production/Android/com/sunrise/reader/R$layout.class
+* out/production/Android/com/sunrise/reader/R$string.class
+* out/production/Android/com/sunrise/reader/R.class
+* out/production/Android/sunrise/
+* out/production/Android/sunrise/ShareReferenceSaver.class
+* out/production/Android/sunrise/bluetooth/
+* out/production/Android/sunrise/bluetooth/ISRBluetoothCardReader.class
+* out/production/Android/sunrise/bluetooth/SRBluetoothCardReader$1.class
+* out/production/Android/sunrise/bluetooth/SRBluetoothCardReader$2.class
+* out/production/Android/sunrise/bluetooth/SRBluetoothCardReader$3.class
+* out/production/Android/sunrise/bluetooth/SRBluetoothCardReader.class
+* out/production/Android/sunrise/nfc/
+* out/production/Android/sunrise/nfc/InfcCardReader.class
+* out/production/Android/sunrise/nfc/SRnfcCardReader$1.class
+* out/production/Android/sunrise/nfc/SRnfcCardReader.class
+* out/production/Android/sunrise/nfc/rsa/
+* out/production/Android/sunrise/nfc/rsa/Base64$1.class
+* out/production/Android/sunrise/nfc/rsa/Base64$InputStream.class
+* out/production/Android/sunrise/nfc/rsa/Base64$OutputStream.class
+* out/production/Android/sunrise/nfc/rsa/Base64.class
+* out/production/Android/sunrise/nfc/rsa/HexDump.class
+* out/production/Android/sunrise/nfc/rsa/RSAUtils.class
+* out/production/Android/sunrise/nfc/rsa/SMS4.class
+* out/production/Android/sunrise/otg/
+* out/production/Android/sunrise/otg/ISRotgCardReader.class
+* out/production/Android/sunrise/otg/SRotgCardReader.class
+* out/production/Reader/
+* out/production/Reader/com/
+* out/production/Reader/com/sunrise/
+* out/production/Reader/com/sunrise/nfc/
+* out/production/Reader/com/sunrise/nfc/Reader.class
+* out/production/Reader/com/sunrise/reader/
+* out/production/Reader/com/sunrise/reader/BTReader$ReadProxy.class
+* out/production/Reader/com/sunrise/reader/BTReader$ReaderConnector.class
+* out/production/Reader/com/sunrise/reader/BTReader$WriteProxy.class
+* out/production/Reader/com/sunrise/reader/BTReader.class
+* out/production/Reader/com/sunrise/reader/BTReaderDriver$1.class
+* out/production/Reader/com/sunrise/reader/BTReaderDriver$IDTransThread.class
+* out/production/Reader/com/sunrise/reader/BTReaderDriver.class
+* out/production/Reader/com/sunrise/reader/BTReaderVersion.class
+* out/production/Reader/com/sunrise/reader/BuildConfig.class
+* out/production/Reader/com/sunrise/reader/DeviceDependency.class
+* out/production/Reader/com/sunrise/reader/GuidUtils.class
+* out/production/Reader/com/sunrise/reader/IDCardInfo.class
+* out/production/Reader/com/sunrise/reader/IDReaderServer.class
+* out/production/Reader/com/sunrise/reader/IDUDPReaderServer$UDPReceiver.class
+* out/production/Reader/com/sunrise/reader/IDUDPReaderServer.class
+* out/production/Reader/com/sunrise/reader/IIDCardInfoAdapter.class
+* out/production/Reader/com/sunrise/reader/INFCInitEvent.class
+* out/production/Reader/com/sunrise/reader/IReaderStateAdapter.class
+* out/production/Reader/com/sunrise/reader/ITryCountAdapter.class
+* out/production/Reader/com/sunrise/reader/Log.class
+* out/production/Reader/com/sunrise/reader/ManagerInfo.class
+* out/production/Reader/com/sunrise/reader/NFCIDCardReader$1.class
+* out/production/Reader/com/sunrise/reader/NFCIDCardReader$2$1.class
+* out/production/Reader/com/sunrise/reader/NFCIDCardReader$2.class
+* out/production/Reader/com/sunrise/reader/NFCIDCardReader$3.class
+* out/production/Reader/com/sunrise/reader/NFCIDCardReader.class
+* out/production/Reader/com/sunrise/reader/NFCMessageListener.class
+* out/production/Reader/com/sunrise/reader/OTGCardReader$1.class
+* out/production/Reader/com/sunrise/reader/OTGCardReader.class
+* out/production/Reader/com/sunrise/reader/OTGReaderDriver$1.class
+* out/production/Reader/com/sunrise/reader/OTGReaderDriver$IDTransThread.class
+* out/production/Reader/com/sunrise/reader/OTGReaderDriver.class
+* out/production/Reader/com/sunrise/reader/R$attr.class
+* out/production/Reader/com/sunrise/reader/R$drawable.class
+* out/production/Reader/com/sunrise/reader/R$layout.class
+* out/production/Reader/com/sunrise/reader/R$string.class
+* out/production/Reader/com/sunrise/reader/R.class
+* out/production/Reader/com/sunrise/reader/ReaderAuthorise.class
+* out/production/Reader/com/sunrise/reader/ReaderLog.class
+* out/production/Reader/com/sunrise/reader/ReaderManager.class
+* out/production/Reader/com/sunrise/reader/ReaderManagerService$1.class
+* out/production/Reader/com/sunrise/reader/ReaderManagerService$2.class
+* out/production/Reader/com/sunrise/reader/ReaderManagerService$3.class
+* out/production/Reader/com/sunrise/reader/ReaderManagerService$4.class
+* out/production/Reader/com/sunrise/reader/ReaderManagerService$BackgroundNetCheckThread.class
+* out/production/Reader/com/sunrise/reader/ReaderManagerService$Counter.class
+* out/production/Reader/com/sunrise/reader/ReaderManagerService.class
+* out/production/Reader/com/sunrise/reader/ReaderServerInfo.class
+* out/production/Reader/com/sunrise/reader/asyn/
+* out/production/Reader/com/sunrise/reader/asyn/BTReaderAsyn.class
+* out/production/Reader/com/sunrise/reader/asyn/BTReaderDriverAsyn$1.class
+* out/production/Reader/com/sunrise/reader/asyn/BTReaderDriverAsyn$NetProxy.class
+* out/production/Reader/com/sunrise/reader/asyn/BTReaderDriverAsyn$ReaderProxy.class
+* out/production/Reader/com/sunrise/reader/asyn/BTReaderDriverAsyn.class
+* out/production/Reader/com/sunrise/reader/asyn/IDReaderServerAsyn.class
+* out/production/Reader/com/sunrise/reader/asyn/ISender.class
+* out/production/Reader/com/sunrise/reader/asyn/SessionAsyn$ISessionAdapter.class
+* out/production/Reader/com/sunrise/reader/asyn/SessionAsyn.class
+* out/production/Reader/com/sunrise/reader/encrypt/
+* out/production/Reader/com/sunrise/reader/encrypt/SM4.class
+* out/production/Reader/com/sunrise/reader/encrypt/SMS4.class
+* out/production/Reader/com/sunrise/reader/log/
+* out/production/Reader/com/sunrise/reader/log/CSVLogObject.class
+* out/production/Reader/com/sunrise/reader/log/FileLogger$FileLoggerThread.class
+* out/production/Reader/com/sunrise/reader/log/FileLogger.class
+* out/production/Reader/com/sunrise/reader/log/ILogObject.class
+* out/production/Reader/com/sunrise/reader/log/NetWorkCSVLogObject.class
+* out/production/Reader/com/sunrise/reader/log/NetWorkReceiveCSVLogObject.class
+* out/production/Reader/com/sunrise/reader/log/NetWorkSendCSVLogObject.class
+* out/production/Reader/com/sunrise/reader/log/StringLogObject.class
+* out/production/Reader/com/sunrise/reader/single/
+* out/production/Reader/com/sunrise/reader/single/BTReaderDriverSingleThread$ReaderThread.class
+* out/production/Reader/com/sunrise/reader/single/BTReaderDriverSingleThread.class
+* out/production/Reader/com/sunrise/reader/single/BTReaderSingleThread.class
+* out/production/Reader/com/sunrise/reader/single/IDReaderServerSingleThread.class
+* proguard-project.txt
+* proguard.cfg
+* projectFilesBackup/
+* projectFilesBackup/.idea/
+* projectFilesBackup/.idea/workspace.xml
+* recyclerview/
+* recyclerview/AndroidManifest.xml
+* recyclerview/README.txt
+* recyclerview/gen/
+* recyclerview/gen/android/
+* recyclerview/gen/android/support/
+* recyclerview/gen/android/support/v7/
+* recyclerview/gen/android/support/v7/recyclerview/
+* recyclerview/gen/android/support/v7/recyclerview/BuildConfig.java
+* recyclerview/gen/android/support/v7/recyclerview/Manifest.java
+* recyclerview/gen/android/support/v7/recyclerview/R.java
+* recyclerview/libs/
+* recyclerview/libs/android-support-v7-recyclerview.jar
+* recyclerview/recyclerview.iml
+* recyclerview/res/
+* recyclerview/res/values/
+* recyclerview/res/values/attrs.xml
+* recyclerview/res/values/dimens.xml
+* recyclerview/res/values/ids.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => sRReaderDemo/src/main/AndroidManifest.xml
+* assets/ => sRReaderDemo/src/main/assets/
+* libs/arm64-v8a/libJNIEMV.so => sRReaderDemo/src/main/jniLibs/arm64-v8a/libJNIEMV.so
+* libs/arm64-v8a/libcmccreader.so => sRReaderDemo/src/main/jniLibs/arm64-v8a/libcmccreader.so
+* libs/arm64-v8a/libidReader.so => sRReaderDemo/src/main/jniLibs/arm64-v8a/libidReader.so
+* libs/arm64-v8a/libserialPortReader.so => sRReaderDemo/src/main/jniLibs/arm64-v8a/libserialPortReader.so
+* libs/armeabi-v7a/libJNIEMV.so => sRReaderDemo/src/main/jniLibs/armeabi-v7a/libJNIEMV.so
+* libs/armeabi-v7a/libcmccreader.so => sRReaderDemo/src/main/jniLibs/armeabi-v7a/libcmccreader.so
+* libs/armeabi-v7a/libemvjni.so => sRReaderDemo/src/main/jniLibs/armeabi-v7a/libemvjni.so
+* libs/armeabi-v7a/libidReader.so => sRReaderDemo/src/main/jniLibs/armeabi-v7a/libidReader.so
+* libs/armeabi-v7a/libserialPortReader.so => sRReaderDemo/src/main/jniLibs/armeabi-v7a/libserialPortReader.so
+* libs/armeabi/libJNIEMV.so => sRReaderDemo/src/main/jniLibs/armeabi/libJNIEMV.so
+* libs/armeabi/libcmccreader.so => sRReaderDemo/src/main/jniLibs/armeabi/libcmccreader.so
+* libs/armeabi/libemvjni.so => sRReaderDemo/src/main/jniLibs/armeabi/libemvjni.so
+* libs/armeabi/libidReader.so => sRReaderDemo/src/main/jniLibs/armeabi/libidReader.so
+* libs/armeabi/libserialPortReader.so => sRReaderDemo/src/main/jniLibs/armeabi/libserialPortReader.so
+* libs/mips/libcmccreader.so => sRReaderDemo/src/main/jniLibs/mips/libcmccreader.so
+* libs/mips/libidReader.so => sRReaderDemo/src/main/jniLibs/mips/libidReader.so
+* libs/mips/libserialPortReader.so => sRReaderDemo/src/main/jniLibs/mips/libserialPortReader.so
+* libs/mips64/libcmccreader.so => sRReaderDemo/src/main/jniLibs/mips64/libcmccreader.so
+* libs/mips64/libidReader.so => sRReaderDemo/src/main/jniLibs/mips64/libidReader.so
+* libs/mips64/libserialPortReader.so => sRReaderDemo/src/main/jniLibs/mips64/libserialPortReader.so
+* libs/sunrise-reader-release_2.1_4.5_jdk1.7.jar => sRReaderDemo/libs/sunrise-reader-release_2.1_4.5_jdk1.7.jar
+* libs/x86/libcmccreader.so => sRReaderDemo/src/main/jniLibs/x86/libcmccreader.so
+* libs/x86/libidReader.so => sRReaderDemo/src/main/jniLibs/x86/libidReader.so
+* libs/x86/libserialPortReader.so => sRReaderDemo/src/main/jniLibs/x86/libserialPortReader.so
+* libs/x86_64/libcmccreader.so => sRReaderDemo/src/main/jniLibs/x86_64/libcmccreader.so
+* libs/x86_64/libidReader.so => sRReaderDemo/src/main/jniLibs/x86_64/libidReader.so
+* libs/x86_64/libserialPortReader.so => sRReaderDemo/src/main/jniLibs/x86_64/libserialPortReader.so
+* res/ => sRReaderDemo/src/main/res/
+* src/ => sRReaderDemo/src/main/java/
+* src/.DS_Store => sRReaderDemo/src/main/resources/.DS_Store
+* src/com/.DS_Store => sRReaderDemo/src/main/resources/com/.DS_Store
+* src/com/sunrise/.DS_Store => sRReaderDemo/src/main/resources/com/sunrise/.DS_Store
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

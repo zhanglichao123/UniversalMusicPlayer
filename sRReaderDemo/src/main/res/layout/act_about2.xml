@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F2F2F2"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:src="@drawable/ico_sunrise" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="关于"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="gone" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_about_head"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/linearLayout1"
+        android:background="@color/green"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <!-- corpration -->
+
+    <LinearLayout
+        android:id="@+id/ll_corp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_about_head"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvCorp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="公司名称:广州市森锐科技股份有限公司"
+            android:textSize="16sp"
+             >
+        </TextView>
+
+        <TextView
+                android:id="@+id/tvCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dip"
+                android:text="股票代码:839182"
+                android:textSize="16sp"
+        >
+        </TextView>
+    </LinearLayout>
+
+    <!-- mail -->
+
+
+    <!-- website -->
+
+    <LinearLayout
+        android:id="@+id/ll_web"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_corp"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网        址:www.sunrizetech.com"
+            android:textSize="16sp" >
+        </TextView>
+    </LinearLayout>
+
+    <!-- telephone -->
+
+    <LinearLayout
+        android:id="@+id/ll_tel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_web"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电        话:020－38488825"
+            android:textSize="16sp" >
+        </TextView>
+    </LinearLayout>
+
+    <!-- soft ver -->
+
+    <LinearLayout
+        android:id="@+id/ll_soft_ver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_tel"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvSoftVer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="驱动版本信息:"
+            android:textSize="16sp" >
+        </TextView>
+
+        <TextView
+                android:id="@+id/tvApiVer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="API版本信息:"
+                android:textSize="16sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSoftVerjar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_soft_ver"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvSoftVerjar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="接口版本:"
+            android:textSize="16sp" >
+        </TextView>
+    </LinearLayout>
+
+    <!-- DeviceId -->
+
+    <LinearLayout
+            android:id="@+id/ll_drvice_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llSoftVerjar"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+
+        <TextView
+                android:id="@+id/tv_drvice_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备ID:"
+                android:textSize="16sp" >
+        </TextView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

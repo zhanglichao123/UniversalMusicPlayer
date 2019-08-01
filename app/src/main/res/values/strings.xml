@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">UniversalMusicPlayer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_clear">清除信息</string>
+    <string name="action_server">服务器设置</string>
+    <string name="action_selserver">选择服务器</string>
+    <string name="key_nm">授权码</string>
+    <string name="lablel_server_address">地  址:</string>
+    <string name="lablel_server_port">端  口:</string>
+    <string name="lablel_save">保存</string>
+    <string name="lablel_about">关于</string>
+    <string name="lablel_blue">连接蓝牙设备</string>
+    <string name="lablel_dis_blue">断开蓝牙设备</string>
+    <string name="lablel_set_num">设定读取次数(内测)</string>
+    <string name="title_other_devices">其他活动设备</string>
+    <string name="title_paired_devices">配对设备</string>
+    <string name="none_paired">没有已配对的设备</string>
+    <string name="scanning">正在扫描设备...</string>
+    <string name="select_device">选择设备</string>
+    <string name="none_found">没有可用设备</string>
+    <string name="title_connected_devices">已连接的设备</string>
+    <string name="not_connected">没有已连接的设备</string>
+    <string name="select_disconnect_device">断开设备</string>
+    <string name="lablel_test_image">图片测试:</string>
+    <!-- 选择服务器列表 -->
+    <string name="server_sel_title">服务器选择:</string>
+    <string name="idOk">确定:</string>
+    <string name="idCancel">取消:</string>
+    <string name="idPressAgainToExitTest">再按一次退出</string>
+    <string name="button_scan">搜索</string>
+    <string name="action_num_tip">只适用于蓝牙或OTG方式读身份证, 填入一个大于0的整数</string>
+</resources>

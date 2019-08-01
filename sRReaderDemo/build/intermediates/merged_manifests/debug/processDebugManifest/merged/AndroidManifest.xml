@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sunrise.readerdemo" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_NEWLAND" />
+    <uses-permission android:name="android.permission.MANAGE_NEWLANDUART3" />
+    <!-- 安卓6.0蓝牙搜索广播授权 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.pos.permission.CARD_READER_PICC" />
+    <uses-permission android:name="com.pos.permission.CARD_READER_ICC" />
+    <uses-permission android:name="com.pos.permission.CARD_READER_MAG" />
+    <uses-permission android:name="com.pos.permission.ACCESSORY_RFREGISTER" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        <activity
+            android:name="com.sunrise.readerdemo.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sunrise.readerdemo.ActAbout"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sunrise.readerdemo.ActServerConfig"
+            android:label="服务器设置"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sunrise.readerdemo.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:theme="@style/device_style" />
+        <activity
+            android:name="com.sunrise.readerdemo.ActSetReadIDNum"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 盛本pos动态库配置 -->
+        <uses-library
+            android:name="com.odm"
+            android:required="false" />
+        <uses-library
+            android:name="com.pos.sdk"
+            android:required="false" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

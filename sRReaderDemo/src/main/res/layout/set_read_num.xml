@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/et_set_read_num"
+              android:inputType="number"
+            />
+
+    <Button android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/bnt_set_read_num"
+              android:text="确定"
+            />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/action_num_tip"
+            />
+
+</LinearLayout>

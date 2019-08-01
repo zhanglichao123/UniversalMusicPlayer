@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_clear" android:title="@string/action_clear"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_server" android:title="@string/action_server"
+        android:orderInCategory="100" android:showAsAction="never" />    
+     <item android:id="@+id/action_blue" android:title="@string/lablel_blue"
+    	android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_set_num" android:title="@string/lablel_set_num"
+          android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_about" android:title="@string/lablel_about"
+    	android:orderInCategory="100" android:showAsAction="never" />
+
+</menu>

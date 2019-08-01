@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout1"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:orientation="vertical" >  
+		
+		<TableRow
+		android:id="@+id/tableRow1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical" >
+		      
+		    <TextView
+		        android:layout_marginLeft="10dip"
+		        android:text="授权码:"
+		        android:layout_weight="3" />
+		    <EditText     
+		        android:layout_marginRight="10dip"
+		        android:maxLength="32"
+		        android:digits="1234567890qwertyuiopasdfghjklzxcvbnm-.@#$%_+"
+		        android:id="@+id/key_nm"
+		        android:layout_weight="1"
+		        android:text="58586d1e74794c10b02d78420ac8b275"/>
+		</TableRow>
+		
+    </LinearLayout>

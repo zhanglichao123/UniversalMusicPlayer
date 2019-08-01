@@ -1,0 +1,2 @@
+include ':app', ':myapplication', ':myapplication2'
+include ':sRReaderDemo'
