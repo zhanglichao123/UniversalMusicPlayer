@@ -1,0 +1,4 @@
+#Thu Aug 01 15:41:47 CST 2019
+base.0=/Users/zhanglichao/workSpace/UniversalMusicPlayer/sRReaderDemo/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
