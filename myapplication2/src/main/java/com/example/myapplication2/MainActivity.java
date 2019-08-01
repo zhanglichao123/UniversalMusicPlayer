@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * ahfioajfafdjnkasfkln
+     *
+     *纯属联系
      */
     Handler handler = new Handler(Looper.myLooper());
     ServiceConnection serviceConnection = new ServiceConnection() {
